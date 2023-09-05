@@ -1,4 +1,4 @@
-FROM baptistearno/typebot-builder:2.16
+FROM baptistearno/typebot-builder:latest
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
